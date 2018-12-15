@@ -150,6 +150,7 @@ void CreatListHead(LinkList L,int n){
   }
   return OK;
 }
+```
 - 尾插法
 定义一个结点r始终为表尾结点，生成新结点p插入到r->next,再将pf赋给r
 ```C
