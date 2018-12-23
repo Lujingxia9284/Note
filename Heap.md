@@ -21,7 +21,7 @@ typedef struct HeapStruct{
     int Capasity;
 }*MaxHeap;
 ```
-创建容量为MaxSize的最大堆
+- 创建容量为MaxSize的最大堆
 ```C
 Status Creat(int MaxSize)
 {
@@ -33,7 +33,7 @@ Status Creat(int MaxSize)
     return H;
 }
 ```
-向堆中入新元素，不破坏完全二叉树和有序性
+- 向堆中入新元素，不破坏完全二叉树和有序性
 ```C
 void Insert(MaxHeap H,int item)
 {
@@ -48,6 +48,9 @@ void Insert(MaxHeap H,int item)
     H->Element[i]=item; 
 }
 ```
+- 最大堆的删除
+```C
+
 
 
 
